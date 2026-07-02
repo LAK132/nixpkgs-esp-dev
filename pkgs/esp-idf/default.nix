@@ -168,7 +168,7 @@ let
       ln -s ${customPython}/lib $out/lib
 
       for key in "''${!toolEnv[@]}"; do
-        printf "export $key=%q" "''${toolEnv[$key]}"
+        printf "export $key=%q\n" "''${toolEnv[$key]}"
       done > $out/.tool-env
 
     # make esp-idf cmake git version detection happy
