@@ -16,6 +16,7 @@
 , python3
 , python311
 , python312
+, python314
 , libxml2_13
 }:
 
@@ -39,6 +40,7 @@ let
     python3
     python311
     python312
+    python314
     libxml2_13
   ];
 
